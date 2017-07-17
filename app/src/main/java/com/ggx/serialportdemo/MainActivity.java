@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //开启读监听
         new Thread(this).start();
     }
-
+ 
 
     @Override
     public void onClick(View view) {
