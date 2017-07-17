@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //开启读监听
         new Thread(this).start();
     }
- 
+
 
     @Override
     public void onClick(View view) {
@@ -80,7 +80,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void run() {
         while (true){
             try {
-                //获取流中可读的字节数,用来做循环监听
+                /**
+                 * 获取流中可读的字节数,用来做循环监听，
+                 * （注意）实际中，串口数据可能不是一次性全部发过来的
+                 * 如：实际一次性发送9个字节，但被分成了两批，
+                 * 一批发4个，第二批发5个。
+                 * 我们可以这么改进它：如我们想要一次性读取多少字节，如果没读完就不停的等待剩余的数据发送过来，
+                 * 直到读满这个长度的字节为止
+                 */
                 int count=in.available();
                 if(count<=0){
                     continue;
