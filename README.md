@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/guanguoxiang/SerialPortDemo.svg)](https://jitpack.io/#guanguoxiang/SerialPortDemo)
 
 
-android 串口读写测试
+android 串口读写测试工具类
 
 * 使用方式
 1. 现在项目根的build.gradle文件中加入
