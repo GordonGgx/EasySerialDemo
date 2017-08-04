@@ -1,4 +1,4 @@
-# SerialPortDemo
+# EasySerialPort
 [![](https://jitpack.io/v/guanguoxiang/SerialPortDemo.svg)](https://jitpack.io/#guanguoxiang/SerialPortDemo)
 
 
