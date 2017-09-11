@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasySerialDemo.iml" filepath="$PROJECT_DIR$/EasySerialDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SerialPortDemo.iml" filepath="$PROJECT_DIR$/SerialPortDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialport/serialport.iml" filepath="$PROJECT_DIR$/serialport/serialport.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialport/serialport.iml" filepath="$PROJECT_DIR$/serialport/serialport.iml" />
     </modules>
   </component>
